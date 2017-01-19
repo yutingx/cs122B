@@ -13,7 +13,7 @@
   Populate the table with data.sql
   ```
   source data.sql
-  ```
+  ```
   
 ### Connect to database with JDBC
 First, you need to compail and run the java program.
@@ -31,7 +31,7 @@ If there is no information found according to your inputs, you will see: cannot 
 
 #### Insert a customer into the database.
  You will be asked about the customer's first name, last name, cc_id, address, email and password.
- 
+ Like:
  `please insert first name:`
  If the cc_id is not in the table, you will see `cannot insert`.
  If you only insert one name, it will be treated as last name.
@@ -52,7 +52,7 @@ If there is no information found according to your inputs, you will see: cannot 
  You will id of all stars.
  If UPDATE/INSERT/DELETE is successed, you will see`Insert OK,1 row effected`.
   
-
+The program is over.
   
   Thanks for reading :blush:
   
