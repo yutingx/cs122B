@@ -8,7 +8,7 @@
   ```
   Create a table with createtable.sql
   ```
-  source createtable.sql
+  -D moviedb < createtable.sql 
   ```
   Populate the table with data.sql
   ```
