@@ -16,25 +16,43 @@
   ```
   
 ### Connect to database with JDBC
+First, you need to compail and run the java program.
+```
+sudo javac JDBC1.java
+sudo java JDBC1
+
+```
 #### Print out (to the screen) the movies featuring a given star.
-  Find `printArr`in prims.cc
-  This is where you can change your output's name and location.
-  ```
-  FILE*w=fopen("sparse_output.txt","w")
-  ```
-####Insert a new star into the database.
+input ID / First name /last name to get star information
+If none of them is valid, you will be asked to input again.
+If there is no information found according to your inputs, you will see: cannot find information in the table.
+
+#### Insert a new star into the database.
 
 #### Insert a customer into the database.
+ You will be asked about the customer's first name, last name, cc_id, address, email and password.
+ 
+ `please insert first name:`
+ If the cc_id is not in the table, you will see `cannot insert`.
+ If you only insert one name, it will be treated as last name.
+ To get a success insert, you need a name and a valid cc_id.
+ Once you successfully inserted a customer, you will see `Insert OK,1 row effected`.
+
  
 #### Delete a customer from the database.
   
 #### Provide the metadata of the database
-  ```
-  int V=9
-  ```
-#### Exit the menu
-#### Exit the program.
+#### Enter a valid SELECT/UPDATE/INSERT/DELETE SQL command.
+ In this part, you can enter any valid SELECT/UPDATE/INSERT/DELETE SQL command to get the right ressult.
+ If your enter is invalid, you will see`Your input is not valid`.
+ To use SELECT:
+ ```
+ select id from stars
+ ```
+ You will id of all stars.
+ If UPDATE/INSERT/DELETE is successed, you will see`Insert OK,1 row effected`.
   
+
   
   Thanks for reading :blush:
   
