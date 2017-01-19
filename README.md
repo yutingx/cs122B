@@ -22,17 +22,18 @@ sudo javac JDBC1.java
 sudo java JDBC1
 
 ```
-#### Print out (to the screen) the movies featuring a given star.
+Now you can choose which fuction you want to use by tap in number from 1-6.
+#### 1. Print out (to the screen) the movies featuring a given star.
 input ID / First name /last name to get star information     
 If none of them is valid, you will be asked to input again.    
 If there is no information found according to your inputs, you will see: cannot find information in the table.    
 
-#### Insert a new star into the database.
+#### 2. Insert a new star into the database.
  You will be asked about the star's first name, last name, date of birth `YYYY-MM-DD` and url.    
  If you only insert one name, it will be treated as last name.     
  Once you successfully inserted a customer, you will see `Insert OK,1 row effected`.    
  
-#### Insert a customer into the database.
+#### 3. Insert a customer into the database.
  You will be asked about the customer's first name, last name, cc_id, address, email and password.   
  Like:   
  `please insert first name:`    
@@ -41,15 +42,15 @@ If there is no information found according to your inputs, you will see: cannot 
  To get a success insert, you need a name and a valid cc_id.    
  Once you successfully inserted a customer, you will see `Insert OK,1 row effected`.    
 
-#### Delete a customer from the database.
+#### 4. Delete a customer from the database.
   You will be asked to enter the id of the customer you want to delete.    
   If the id is valid, you will see `delete OK, 1 row effected`   
   If the id is invalid, you will see `delete OK, 0 row effected`   
   
-#### Provide the metadata of the database
-  Under the information of whether the customer is successly deleted, you will see metadata of database automatically.    
+#### 5. Provide the metadata of the database
+  You will see metadata of database automatically.    
 
-#### Enter a valid SELECT/UPDATE/INSERT/DELETE SQL command.
+#### 6. Enter a valid SELECT/UPDATE/INSERT/DELETE SQL command.
  In this part, you can enter any valid SELECT/UPDATE/INSERT/DELETE SQL command to get the right ressult.    
  If your enter is invalid, you will see`Your input is not valid`.   
  To use SELECT:     
