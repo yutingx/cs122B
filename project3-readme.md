@@ -15,7 +15,7 @@ Username: `ubuntu`
 Password: `122Bpass`      
 
 ###reCaptcha and employee dashboard
-First go to `Login.jsp` page, you can see reCaptcha works well.    
+First go to `Login.jsp` page, you can see reCaptcha works well, if you have correct email and password but didn't pass reCaptcha, you will stay at Login page.    
 
 Then click on `I'm an emplyee` go to employee's dashboard.    
 
