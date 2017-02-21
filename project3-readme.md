@@ -14,6 +14,12 @@ ec2-35-166-171-169.us-west-2.compute.amazonaws.com
 Username: `ubuntu`      
 Password: `122Bpass`      
 
-  Thanks for reading :blush:    
-  
-    
+###reCaptcha and employee dashboard
+First go to `Login.jsp` page, you can see reCaptcha works well.    
+
+Then click on `I'm an emplyee` go to employee's dashboard.    
+
+Now you can insert new stars or new movies, if you want to see metadata, just cllick on `Metadata`.
+  Thanks for reading :blush:     
+
+ 
